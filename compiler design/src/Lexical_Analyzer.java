@@ -12,6 +12,7 @@ public class Lexical_Analyzer {
        char c = ((char) br.read());
       
        char[] Operators = {'+','-' , '*' , '/' , '='};
+
        
        switch (c)
        {
